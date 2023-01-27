@@ -10,6 +10,9 @@ int main(){
         c is count 
         m is temporary variable
         r is reverse of number
+        
+
+
      */
      printf("enter a number\n");
      scanf("%d",&a);

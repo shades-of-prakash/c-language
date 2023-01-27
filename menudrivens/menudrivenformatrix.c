@@ -8,9 +8,9 @@ int main(){
            switch(option){
                case 1:int m,n,p,q;
                      printf("enter number of rows and columns in first matrix\n");
-                     scanf('%d%d',&m,&n);
+                     scanf("%d%d",&m,&n);
                      printf("enter number of rows and columns in second matrix\n");
-                     scanf('%d%d',&p,&q);
+                     scanf("%d%d",&p,&q);
                      for(i=0;i<m;i++){
                        for(j=0;j<n;j++){
                                scanf("%d",&matrix_1[i][j]);
@@ -18,7 +18,11 @@ int main(){
 
                             }
                       if(m==p&&n==q){
-                        
+                        for(i=0;i<m;i++){
+                            for(j=0;j<n;j++){
+                                final[i][j]=matrix_1[i][j]+matrix_2[i][j];
+                            }
+                        }
                       }      
 
            }
