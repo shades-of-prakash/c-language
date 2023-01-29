@@ -8,7 +8,7 @@ int main(){
                scanf("%d",&data[i]);
        }
        while(1){
-
+           printf("\n");
         
        }
 
