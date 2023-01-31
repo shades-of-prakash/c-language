@@ -15,7 +15,7 @@ int main(){
        }
        else if(det<0){
           real=-b/2*a;
-          imaginary=(4*a*c)-(b*b)/(2*a); 
+          imaginary=sqrt((4*a*c)-(b*b))/(2*a); 
           printf("the roots are imaginary\n");
           printf("%0.2f+i%0.2f\n",real,imaginary);
           printf("%0.2f-i%0.2f\n",real,imaginary);
