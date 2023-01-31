@@ -24,8 +24,8 @@ int main(){
        }
        else{
         printf("roots are real and distinct\n");
-        printf("%0.2f",root1);
-        printf("%0.2f",root2);
+        printf("%0.2f\n",root1);
+        printf("%0.2f\n",root2);
        }
 
 
