@@ -5,9 +5,9 @@ int main(){
        float root1,root2,real,imaginary,det;
        printf("enter a,b and c of your equation\n");
        scanf("%d%d%d",&a,&b,&c);
-       root1=(-b+sqrt(b*b-(4*a*c)))/(2*a);
-       root2=(-b-sqrt(b*b-(4*a*c)));
-       det=(b*b)-(4*a*c);
+       root1=(float)(-b+sqrt(b*b-(4*a*c)))/(2*a);
+       root2=(float)(-b-sqrt(b*b-(4*a*c)));
+       det=(float)(b*b)-(4*a*c);
        if(det==0){
         printf("equation has equal roots\n");
         printf("%0.2f\n",root1);
