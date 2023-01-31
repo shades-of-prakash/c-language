@@ -10,8 +10,8 @@ int main(){
        det=(b*b)-(4*a*c);
        if(det==0){
         printf("equation has equal roots\n");
-        printf("%n.2f\n",root1);
-         printf("%n.2f\n",root2);
+        printf("%0.2f\n",root1);
+         printf("%0.2f\n",root2);
        }
        else if(det<0){
           real=-b/2*a;
@@ -19,6 +19,7 @@ int main(){
           printf("the roots are imaginary\n");
           printf("%0.2f+i%0.2f\n",real,imaginary);
           printf("%0.2f-i%0.2f\n",real,imaginary);
+
 
        }
        else{
